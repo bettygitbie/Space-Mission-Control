@@ -1,0 +1,47 @@
+* {
+    background-color: black;
+    color: white;
+    font-family:monospace
+}
+
+.mission-control {
+    border: 1px solid white;
+    margin: 5px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+    display: flex;
+}
+
+.mission-card-name {
+    font-size: 18px;
+    
+}
+
+.mission-card-status, .mission-card-crew {
+    font-size: 10px;
+    font-weight: lighter; 
+}
+
+button {
+    margin: 3px 10px;
+    border: 2px rgb(81, 221, 81) solid;
+    padding: 5px 10px;
+    font-size: 10px;
+    width: 90px;
+}
+button:hover {
+    cursor: pointer;
+    background-color: rgb(43, 43, 43);
+}
+.heading-button {
+    border: 2px red solid;
+    margin: 5px 5px;
+}
+.mission-card-btn {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    margin-left: auto;
+    padding: 5px 0px;
+    margin-top: 10px;
+ }
